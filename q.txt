@@ -1,0 +1,136 @@
+1	Write a Python Program Enter ‘*’ Between two identical characters in a string.
+Example :
+Given string = hello
+Output: hel*lo		
+
+2	Write a Program to enter the number and print the Floyd’s Triangle in decreasing order.
+E.g. Enter the number :5
+5 
+5 4 
+5 4 3 
+5 4 3 2 
+5 4 3 2 1
+
+3	Write a Python function to find whether the number entered by the user is automorphic or not. 	June	
+	An automorphic number is one whose square has the same last digit as the original number. Examples: 5 - 25, 6 - 36,  and so on.
+Example :
+let N= 6
+N square = 6*6 = 36
+The last digit is the same as the given number. Therefore, 6 is an automorphic number.	June	
+
+4	Write a Python function to remove characters that appear more than k  times in a string accepted from the user.
+Example:
+Given String = "goodmorningall"
+Given k value = 2
+Output:
+The given string { goodmorningall } after removal of all characters that appears more than k {2} times: dmria	June	
+
+5	Write a Python function that checks whether a passed string is palindrome or not. Note: A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam.	June	
+
+6	Write a Python Program to count number of pairs in a list whose product is divisible by a value K entered by the user.
+Example:
+ L = [1,2,3,4,5] , K = 2
+ Total number of pairs = 7	June	
+
+7	Write the definition of a function zero_ending(scores) to add all those values in the list of scores, which are ending with zero and display the sum.
+For example: If the scores contain [200, 456, 300, 100, 234, 678]. The sum should be displayed as 600.	June	
+
+8	Write a python program to search an element in a list and display the frequency of element present in list and their location by using user defined function. [List and search element should be entered by user]	June	
+
+9	Write a Python program to find tuples with positive elements in list of tuples.
+Examples:
+Input : test_list = [(4, 5, 9), (-3, 2, 3), (-3, 5, 6), (4, -6)] 
+Output:[(4,5,9)] 
+Explanation : Extracted tuples with all positive elements.
+Input : test_list = [(-4, 5, 9), (-3, 2, 3), (-3, 5, 6), (4, -6)] 
+Output:[] 
+Explanation : No tuple with all positive elements.	June	
+
+10	Write a program to copy all the lines that contain the character `a' in a file and write it to another file.	June	
+
+11	Take a sample text file and find the most commonly occurring word. Also, find the frequencies of words in the text file.	June	
+
+12	Write a python program to create a binary file with name and roll number. Search for a given roll number and display name, if not found display appropriate message.	June	
+
+13	Write a program using python to get 10 players name and their score. Write the input in a csv file. Accept a player name using python. Read the csv file to display the name and the score. If the player’s name is not found give an appropriate message.	June	
+
+14	Write a Python program to get item details (code, description and price) for multiple items from the user and create a csv file by writing all the item details in one go.		
+
+
+15	Write a function in Python , Push(Vehicle) where, Vehicle is a dictionary containing details of vehicles–{Car_Name: Maker}.
+The function should push the name of car manufactured by “TaTA’ (including all the possible cases like Tata,TaTa, etc.) to the stack. For example
+If the dictionary contains the following data:
+Vehicle={“Santro” : “Hyundai”, “Nexon”: “Tata”, “Safari”: “Tata”}
+The stack should contain
+Safari
+Nexon		
+
+16	A stack of student’s information contains Roll_no, Name and Grade. Write a python program to create a stack containing students' information for the number of students entered by the user. Now create the following methods with created stack as an argument to display and update the stack.
+display(stack) – To display the information of all the students saved in stack.
+Push(stack) – To display previously saved information, accept new information for a student and update the stack.  		
+
+    17	Write a menu driven program to handle a linear stack called Books contains (book number, book name and cost). Write the user defined functions:
+    •	PUSH (N) to add N book details each containing the above-mentioned information. N to be accepted by user. Display the stack after adding all records.
+    •	POP() to delete the book details of last item added. Display the updated stack. 
+    •	DISPLAY() to display all books details having price more than 500.		
+
+18	Query I - Create a database ‘School’. 
+Query II - Create a table ‘Student’ with following attributes in School database: 
+sid – number (should not accept a duplicate value)
+sname – Text (Could be maximum 30 character long)
+gender – Should accept only 1 character either M or F
+mark – Should allow decimal values but cannot be more than 100 or less than 0. 
+Query III – Enter the same values as given in below table:
+Sid	Sname	Gender	Mark
+101	Neha	F	97
+111	Ria	F	67
+231	Mohan	M	78
+124	Rohan	M	94
+121	Misha	F	92
+ 		
+19	Write the following MySQL queries for above table:
+Query I -  Add 2 new columns: city varchar(15), phone varchar(10). 
+Query II -  Redefine the size of city to 20 characters. 
+Query III -  Drop the attribute city. 
+Query IV -  Change the marks of student Ria to 75.  
+Query V -  Display the student name & marks in ascending order of marks.
+Query VI – Display student data in descending order of sid
+Query VII – Display the number of students gender wise.
+Query VIII – Display lowest, highest, total marks & average marks of students gender wise
+Query IX – Delete the details of the student with sid 231.
+Query X – Display highest marks gender wise having highest marks more than 90.		
+
+20	Create an employee table in SQL with attributes - empno, ename and salary. 
+    Integrate SQL with Python by importing the MySQL module. 
+•	Display all the employee details.
+•	Insert a new record in the table by accepting the details from the user.
+•	Delete an employee record based on the employee number entered by the user. 
+    Display the contents of the employee table after deletion using a Python script.		
+
+
+21	Create a student table in SQL with attributes-sid, sname, section, gender & mark. Integrate SQL with Python by importing the MySQL module. Display the details of students from student table in descending order of marks from the Python script.		
+
+22	Create a Database COMPANY. 
+Create a table JOB (JOBID (PK), JOBTITLE, SALARY) and Insert Records. 
+Create a table Employee (EID (PK), NAME, SALES, JOBID (FK)) and Insert Records.
+Write the SQL Queries for the following: 
+i. To display employee ids, names of employees, job ids, with corresponding job titles. (JOIN QUERY) ii. To display names of employees, sales and corresponding job titles who have achieved sales more than 130000. (JOIN QUERY)
+ iii. To display names and corresponding job titles of those employees who have ‘SINGH’ (anywhere) in their names.
+ iv. Display the name of employee having maximum salary. 
+v. Write the SQL command to change the JobId to 104 of the Employee with ID as E4 in the table EMPLOYEE.		
+
+23	Write a Python Program to create a Database named “School”. 
+Display the List of Databases available in MySQL.
+Write a Python program 
+-	to Create a Table name “Student” under database “School” contained RollNo, Name, UT1, and UT2 score. 
+            Note: UT1 and UT2 out of 40 only.
+-	to Insert Records in “Student” table. Display all records. Note: UT1 and UT2 out of 40 only.
+-	 to increase the marks of UT1 by 10 of those students having UT1 marks less than 20. Also, display a message how many records are updated.
+-	display Records form table “Student” with their Total Marks and Percentage. (totalmarks = UT1 + UT2) (percentage = totalmarks / 80 * 100		
+
+24	Create a Table CLUB (CoachId, CoachName, Age, Sports, DateofApp, Pay, Gender) and insert Records.  Write the SQL Queries for the following: -   -    To display the list of coach who is playing KARATE
+-	To display the records having Pay between 500 to 1000. 
+-	To display the names of coach whose name starts with ‘A’. 
+-	To display the total salary paid to Coach Gender wise. 
+-	To display all records alphabetically on name.		
+
